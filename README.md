@@ -1,14 +1,11 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-						README FIRST						
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+README FIRST					
 
 1. First run the NMAP command and output the file as .nmap file
 2. Input the IP address as the first parameter
 
+#The .nmap file and the script file must be in the same directory#
 
-################################################################
-The .nmap file and the script file must be in the same directory
-################################################################
 
 EXAMPLE :
 			└─$ nmap -p- 127.0.0.1 -oN Scan.nmap   
